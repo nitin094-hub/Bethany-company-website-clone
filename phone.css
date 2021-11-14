@@ -1,0 +1,193 @@
+@media screen and (max-width: 1169px) {
+    #nav #navbar .container{
+        width: 100%;
+        position: relative;
+    }
+    #navbar #navigation #navi_elem {
+        display: flex;
+    }
+    #eum{
+        width: 100%;
+        flex-direction: column;
+    }
+    #eum .left_container {
+        margin: 6px 8px;
+    }
+    #eum .right_container {
+        margin: 6px 8px;
+        margin-top: -6px;
+    }
+    #choose_bethany{
+        width: 100%;
+        flex-direction: column;
+        padding: 36px 0px;
+    }
+    #services{
+        flex-direction: column;
+        width: 100%;
+    }
+    #services .left_container{
+        text-align: center;
+    }
+    #services .right_container {
+
+        flex-basis: 34rem;
+    }   
+    #portfolio{
+        
+        width: 100%;
+    }
+    #portfolio .left_container{
+        text-align: center;
+    }
+    #portfolio .right_container .image img {
+        width: 273px;
+        height: 277px;
+        margin: 5px 9px;
+        transition: 0.5s all ease-in-out;
+    }
+    #portfolio .right_container .image {
+        width: 47%;
+    }
+    #testimonial{
+        width: 100%;
+        flex-direction: column;
+    }
+    #testimonial .left_container {
+        flex-basis: 9rem;
+        text-align: center;
+    }
+    #contact{
+        flex-direction: column;
+        width: 100%;
+    }
+    #contact .left_container{
+        text-align: center;
+    }
+    #links{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    #links .address {
+        flex-basis: 41%;
+        padding: 2px;
+    }
+    #copyright{
+        
+        width: 100%;
+    }
+    #contact .right_container .location{
+        width: 97%;
+        padding-right: 0px;
+    }
+    #contact .right_container .mail{
+        width: 97%;
+        padding-right: 0px;
+    }
+    #contact .right_container .call{
+        width: 97%;
+        padding-right: 0px;
+    }
+    #contact .right_container form{
+        width: 97%;
+        padding-right: 0px;
+    }
+    
+}
+@media screen and (max-width: 816px){
+    #nav #navbar .container {
+        flex-direction: column;
+    }
+    #navbar #navigation #navi_elem {
+        flex-direction: column;
+        display: none;
+    }
+    #navbar #navigation #navi_elem {
+        line-height: 44px;
+        padding: 0px;
+    }
+    #navbar #navigation .head h1 {
+        text-align: unset;
+    }
+    #navbar #navigation {
+       
+        align-items:unset;
+    }
+    #navbar #navigation #hamburger {
+    
+    display: block;
+    position: absolute;
+    right: 9px;
+    top: 14px;
+    }
+}
+@media screen and (max-width: 601px){
+    #choose_bethany .right_container {
+        flex-direction: column;
+    }
+    #choose_bethany .box {
+        margin: 7px auto;
+    }
+    #services .right_container {
+        flex-direction: column;
+    } 
+    #services .right_container .box {
+     
+        width: 98%;
+    }
+    #portfolio .right_container .image {
+        width: 97%;
+    }
+    #portfolio .right_container .image img {
+        width: 100%;
+    }
+    #links {
+        flex-direction: column;
+        /* align-items: center; */
+    }
+    #copyright {
+        flex-direction: column;
+    }
+    #copyright .socials {
+        justify-content:unset;
+        
+    }
+    #choose_bethany {
+      
+        padding: 36px 0px;
+    }
+    #testimonial .right_container .name .fa-chevron-right {
+        position: absolute;
+        right: -81px;
+        top: 58px;
+        cursor: pointer;
+    }
+    #testimonial .right_container .name .fa-chevron-left {
+        position: absolute;
+        left: -81px;
+        top: 58px;
+        cursor: pointer;
+    }
+    #contact .right_container .location {
+        padding: 9px 0px;
+    }
+    #contact .right_container .location {
+        padding: 9px 0px;
+    }
+    #contact .right_container .call {
+        padding: 9px 0px;
+    }
+    #contact .right_container form input {
+    
+    padding: 8px 0px;
+    margin: 5px 0px;
+        
+    }
+    #contact .right_container form textarea {
+        padding: 8px 0px;
+        margin: 5px 0px;
+    }
+    #services .right_container .box {
+        margin: 9px 0px;
+    }
+}
